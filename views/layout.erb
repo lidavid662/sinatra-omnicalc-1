@@ -39,7 +39,7 @@
       </tr>
     </table>
 
-    <%= yield %>
+    <% yield if block_given? %>
 
   </body>
 </html>
